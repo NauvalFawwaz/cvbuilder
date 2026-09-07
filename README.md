@@ -28,6 +28,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/NauvalFawwaz/cvbuilder.git
+```
 
 ## Live Demo
 
