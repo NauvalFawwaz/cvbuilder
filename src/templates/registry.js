@@ -1,0 +1,27 @@
+export const templates = [
+  { id: 'ats-classic', name: 'ATS Classic', caption: 'Serif klasik, satu kolom', color: '#334155', tag: 'Teks sederhana', category: 'Umum', order: 'experience' },
+  { id: 'ats-modern', name: 'ATS Modern', caption: 'Garis bersih, mudah dipindai', color: '#256f69', tag: 'Teks sederhana', category: 'Umum', order: 'experience' },
+  { id: 'professional', name: 'Professional', caption: 'Header navy untuk kesan formal', color: '#243e66', tag: 'Formal', category: 'Bisnis', order: 'experience' },
+  { id: 'minimal', name: 'Minimal', caption: 'Ruang lega, fokus pada isi', color: '#78716c', tag: 'Ringkas', category: 'Umum', order: 'experience' },
+  { id: 'creative', name: 'Creative', caption: 'Aksen hangat dan tipografi editorial', color: '#a34f33', tag: 'Ekspresif', category: 'Kreatif', order: 'experience' },
+  { id: 'developer', name: 'Developer', caption: 'Monospace untuk cerita teknis', color: '#5765ab', tag: 'Teknis', category: 'Teknik', order: 'experience' },
+  { id: 'executive', name: 'Executive', caption: 'Serif tegas, pencapaian di depan', color: '#66522d', tag: 'Kepemimpinan', category: 'Bisnis', order: 'experience', design: 'rule', font: 'serif' },
+  { id: 'graduate', name: 'First Chapter', caption: 'Pendidikan dan proyek lebih dahulu', color: '#397459', tag: 'Fresh graduate', category: 'Pendidikan', order: 'education', design: 'underline', font: 'sans' },
+  { id: 'career-switch', name: 'New Direction', caption: 'Tonjolkan keterampilan lintas bidang', color: '#755587', tag: 'Pindah karier', category: 'Umum', order: 'skills', design: 'label', font: 'sans' },
+  { id: 'healthcare', name: 'Care', caption: 'Kualifikasi dan sertifikasi terlihat jelas', color: '#276f7b', tag: 'Kesehatan', category: 'Layanan', order: 'credentials', design: 'crossline', font: 'sans' },
+  { id: 'educator', name: 'Educator', caption: 'Pendidikan dahulu, detail terstruktur', color: '#826145', tag: 'Pengajar', category: 'Pendidikan', order: 'education', design: 'rule', font: 'serif' },
+  { id: 'engineering', name: 'Blueprint', caption: 'Keterampilan dan proyek teknis', color: '#38577c', tag: 'Teknik', category: 'Teknik', order: 'skills', design: 'gridline', font: 'sans' },
+  { id: 'finance', name: 'Ledger', caption: 'Padat, monokrom, dan formal', color: '#344b45', tag: 'Keuangan', category: 'Bisnis', order: 'experience', design: 'compact', font: 'serif' },
+  { id: 'hospitality', name: 'Welcome', caption: 'Pengalaman layanan dengan aksen lembut', color: '#985c47', tag: 'Hospitality', category: 'Layanan', order: 'experience', design: 'centered', font: 'serif' },
+  { id: 'retail', name: 'People First', caption: 'Komunikasi dan pengalaman pelanggan', color: '#586b39', tag: 'Retail & sales', category: 'Layanan', order: 'skills', design: 'label', font: 'sans' },
+  { id: 'operations', name: 'Precision', caption: 'Struktur ringkas untuk detail operasional', color: '#566376', tag: 'Operasional', category: 'Teknik', order: 'experience', design: 'compact', font: 'sans' },
+  { id: 'research', name: 'Scholar', caption: 'Pendidikan dan proyek penelitian dahulu', color: '#593f64', tag: 'Riset', category: 'Pendidikan', order: 'education', design: 'academic', font: 'serif' },
+  { id: 'portfolio', name: 'Studio', caption: 'Proyek dahulu, judul editorial besar', color: '#a74d59', tag: 'Portofolio', category: 'Kreatif', order: 'projects', design: 'editorial', font: 'sans' },
+];
+export const sectionOrders = {
+  experience: ['summary', 'experiences', 'educations', 'projects', 'certifications', 'skills', 'languages'],
+  education: ['summary', 'educations', 'projects', 'experiences', 'certifications', 'skills', 'languages'],
+  skills: ['summary', 'skills', 'projects', 'experiences', 'educations', 'certifications', 'languages'],
+  credentials: ['summary', 'certifications', 'experiences', 'educations', 'skills', 'projects', 'languages'],
+  projects: ['summary', 'projects', 'experiences', 'skills', 'educations', 'certifications', 'languages'],
+};
